@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "resourceProviderNamespace": {
+            "required": true,
+            "type": "string"
+        },
+        "featureName": {
+            "required": true,
+            "type": "string"
+        },
+        "subscriptionId": {
+            "required": true,
+            "type": "string"
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
